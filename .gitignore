@@ -1,0 +1,9 @@
+# Project-specific files 
+*.out
+*.bcf
+*.log
+*.aux
+*.xml
+*.gz
+*.xmpi
+*.synctex*
