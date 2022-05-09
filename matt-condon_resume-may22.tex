@@ -58,8 +58,8 @@
 % Change some fonts, if necessary
 \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
 \renewcommand{\personalinfofont}{\footnotesize}
-\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
-\renewcommand{\cvsubsectionfont}{\large\bfseries}
+\renewcommand{\cvsectionfont}{\Large\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\Large\bfseries}
 
 
 % Change the bullets for itemize and rating marker
@@ -81,23 +81,20 @@
 \addbibresource{sample.bib}
 
 \begin{document}
-\name{Your Name Here}
-\tagline{Your Position or Tagline Here}
+\name{Matt Condon}
+\tagline{Senior Software Engineer}
 %% You can add multiple photos on the left or right
-\photoR{2.8cm}{Globe_High}
+%% \photoR{2.8cm}{Globe_High}
 % \photoL{2.5cm}{Yacht_High,Suitcase_High}
 
 \personalinfo{%
   % Not all of these are required!
-  \email{your_name@email.com}
-  \phone{000-00-0000}
-  \mailaddress{Åddrésş, Street, 00000 Cóuntry}
-  \location{Location, COUNTRY}
-  \homepage{www.homepage.com}
-  \twitter{@twitterhandle}
-  \linkedin{your_id}
-  \github{your_id}
-  \orcid{0000-0000-0000-0000}
+  \email{mattscondon@gmail.com}
+  \phone{085-1177952}
+  \mailaddress{Rochestown Avenue, Dun Laoghaire}
+  \location{Dublin, Ireland}
+  \linkedin{matt-condon}
+  \github{ma77c0nd0n}
   %% You can add your own arbitrary detail with
   %% \printinfo{symbol}{detail}[optional hyperlink prefix]
   % \printinfo{\faPaw}{Hey ho!}[https://example.com/]
@@ -130,108 +127,159 @@
 \begin{paracol}{2}
 \cvsection{Experience}
 
-\cvevent{Job Title 1}{Company 1}{Month 20XX -- Ongoing}{Location}
-\begin{itemize}
-\item Job description 1
-\item Job description 2
-\end{itemize}
+\cvevent{Senior Software Engineer/Team Lead}{Dell Technologies}{July 2021-- Ongoing}{Dublin}
+
+Working as a backend Software Engineer on the
+Personalization efforts for Dell's ECommerce Platform -
+building containerized .NET Core microservices, primarily
+RESTful APIs and ETL jobs hosted on PKS and PCF.
+\smallskip \newline
+
+\cvtag{.NET Core}
+\cvtag{MongoDb}
+\cvtag{Redis}
+\cvtag{Docker}
+\cvtag{PCF}
+\cvtag{PKS}
+\cvtag{Gitlab}
+\cvtag{CICD}
+\cvtag{NUnit}
+\cvtag{Vegeta (Performance Testing)}
+\cvtag{Confluence}
+\cvtag{NewRelic}
+\cvtag{Kibana}
+
 
 \divider
 
-\cvevent{Job Title 2}{Company 2}{Month 20XX -- Ongoing}{Location}
-\begin{itemize}
-\item Job description 1
-\item Job description 2
-\end{itemize}
+\cvevent{Software Engineer II - Personalization Platform Team}{Dell Technologies}{August 2019 -- July 2021}{Dublin}
 
-\cvsection{Projects}
+Working as a full-stack software engineer on the Dell B2B
+ECommerce AI/ML experience. Working E2E in partnership with Data
+Science Team on ETL of Recommendation Data with RabbitMQ, .NET Core Microservices and the related UX
+component-driven micro-frontend widgets built in Typescript.
+\smallskip \newline
 
-\cvevent{Project 1}{Funding agency/institution}{}{}
-\begin{itemize}
-\item Details
-\end{itemize}
+\cvtag{.NET Core}
+\cvtag{RabbitMQ} 
+\cvtag{MongoDb}
+\cvtag{Docker}
+\cvtag{PCF}
+\cvtag{Typescript} 
+\cvtag{LitElement}
+\cvtag{NPM}
+\cvtag{Webpack}
+\cvtag{Gitlab} 
+\cvtag{CICD}
+\cvtag{Jasmine}
+\cvtag{Protractor}
+\cvtag{Selenium Webdriver}
+\cvtag{JSON Server}
+\cvtag{NewRelic}
 
-\divider
-
-\cvevent{Project 2}{Funding agency/institution}{Project duration}{}
-A short abstract would also work.
-
-\medskip
-
-\cvsection{A Day of My Life}
-
-% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
-% \wheelchart{outer radius}{inner radius}{
-% comma-separated list of value/text width/color/detail}
-\wheelchart{1.5cm}{0.5cm}{%
-  6/8em/accent!30/{Sleep,\\beautiful sleep},
-  3/8em/accent!40/Hopeful novelist by night,
-  8/8em/accent!60/Daytime job,
-  2/10em/accent/Sports and relaxation,
-  5/6em/accent!20/Spending time with family
-}
-
-% use ONLY \newpage if you want to force a page break for
-% ONLY the current column
-\newpage
-
-\cvsection{Publications}
-
-\nocite{*}
-
-\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
 
 \divider
 
-\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
+\cvevent{Software Engineer I - ECommerce B2B Shop Experience}{Dell Technologies}{June 2017 -- August 2019}{Dublin}
+
+Developing the redesigned ECommerce B2B Platform
+Shopping Experience. Supporting end-to-end design,
+development and release of customer-driven features
+\smallskip \newline
+
+\cvtag{.NET Core}
+\cvtag{WebAPI}
+\cvtag{Entity Framework}
+\cvtag{MySQL}
+\cvtag{Neo4j}
+\cvtag{Javascript (ES6)}
+\cvtag{AngularJS} 
+\cvtag{HTML} 
+\cvtag{CSS}
+\cvtag{NPM}
+\cvtag{Webpack}
+\cvtag{Selenium Webdriver}
+\cvtag{IIS}
+\cvtag{Swagger} 
+\cvtag{Postman}
 
 \divider
 
-\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+\cvevent{Software Development Engineer in Test Intern}{Dell Technologies}{June 2015/16 -- Sept 2015/16}{Dublin}
+
+Building Automated Testing Suite, for UX Testing on Dell
+Internal Sales Platform and Salesforce CRM Platform
+\smallskip \newline
+
+\cvtag{.NET Framework}
+\cvtag{Selenium}
+\cvtag{TFS}
+\cvtag{MTM}
 
 %% Switch to the right column. This will now automatically move to the second
 %% page if the content is too long.
 \switchcolumn
 
-\cvsection{My Life Philosophy}
+\cvsection{Career Statement}
 
-\begin{quote}
-``Something smart or heartfelt, preferably in one sentence.''
-\end{quote}
+My current ambition is to continue to build comprehensive, scalable, robust and functional solutions, while maintaining a continued focus on learning and development.
 
-\cvsection{Most Proud of}
+%%additional \fa icons can be found here http://mirrors.ibiblio.org/CTAN/fonts/fontawesome/doc/fontawesome.pdf
+\cvsection{Additional Activities}
 
-\cvachievement{\faTrophy}{Fantastic Achievement}{and some details about it}
-
-\divider
-
-\cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+\cvachievement{\faChild}{Lead of CoderDojo}{Leading Dell's annual CoderDojo as part of Dell's work experience initiative}
 
 \divider
 
-\cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+\cvachievement{\faGraduationCap}{University Relations}{Member of Dell Ireland University Relations Committee}
 
-\cvsection{Strengths}
+\divider
 
-\cvtag{Hard-working}
-\cvtag{Eye for detail}\\
-\cvtag{Motivator \& Leader}
+\cvachievement{\faHeartbeat}{Sports and Social}{Lead organiser of Dell Digital sports and social health and wellness events}
+
+\cvsection{Competencies}
+
+\cvtag{.NET Core}
+\cvtag{Java}
+\cvtag{Python}
+\cvtag{JavaScript}
+\divider
+
+\cvtag{Docker}
+\cvtag{RabbitMQ}
+\cvtag{Kafka}
+
+\divider
+
+\cvtag{MongoDB}
+\cvtag{Redis}
+\cvtag{PostgreSQL}
+
+\divider
+
+\cvtag{Kubernetes}
+\cvtag{PCF}
+\cvtag{Git}
+\cvtag{CICD}
+\cvtag{GitLab}
+\cvtag{DevOps}
+
+\divider
+
+\cvtag{Splunk}
+\cvtag{ELK/Kibana}
+\cvtag{Dynatrace}
 
 \divider\smallskip
 
-\cvtag{C++}
-\cvtag{Embedded Systems}\\
-\cvtag{Statistical Analysis}
-
-\cvsection{Languages}
-
-\cvskill{English}{5}
-\divider
-
-\cvskill{Spanish}{4}
-\divider
-
-\cvskill{German}{3.5} %% Supports X.5 values.
+\cvtag{Web Development}
+\cvtag{Distributed Systems}\\
+\cvtag{Microservices}
+\cvtag{Event Driven Architecture}
+\cvtag{REST}
+\cvtag{TDD}
+\cvtag{OOD}
+\cvtag{SOLID}
 
 %% Yeah I didn't spend too much time making all the
 %% spacing consistent... sorry. Use \smallskip, \medskip,
@@ -240,29 +288,7 @@ A short abstract would also work.
 
 \cvsection{Education}
 
-\cvevent{Ph.D.\ in Your Discipline}{Your University}{Sept 2002 -- June 2006}{}
-Thesis title: Wonderful Research
-
-\divider
-
-\cvevent{M.Sc.\ in Your Discipline}{Your University}{Sept 2001 -- June 2002}{}
-
-\divider
-
-\cvevent{B.Sc.\ in Your Discipline}{Stanford University}{Sept 1998 -- June 2001}{}
-
-% \divider
-
-\cvsection{Referees}
-
-% \cvref{name}{email}{mailing address}
-\cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
-{Address Line 1\\Address line 2}
-
-\divider
-
-\cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
-{Address Line 1\\Address line 2}
+\cvevent{B.Sc.\ Computer Science}{University College Dublin}{2013 -- 2017}{}
 
 
 \end{paracol}
