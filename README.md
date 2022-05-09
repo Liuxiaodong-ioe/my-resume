@@ -3,7 +3,7 @@ Resume built using LaTeX Templates
 
 
 ### Latest Version
-![image](https://user-images.githubusercontent.com/10655290/167322092-a1a4065e-ab28-4917-a94b-8017318bd70d.png)
+![image](https://user-images.githubusercontent.com/10655290/167325576-446c5d15-76e2-4023-991a-50a475b8cbd8.png)
 
 ### How to Use
 
