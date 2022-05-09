@@ -1,6 +1,10 @@
 # my-resume
 Resume built using LaTeX Templates
 
+
+### Latest Version
+![image](https://user-images.githubusercontent.com/10655290/167322092-a1a4065e-ab28-4917-a94b-8017318bd70d.png)
+
 ### How to Use
 
 | Step | Details |
@@ -9,7 +13,6 @@ Resume built using LaTeX Templates
 | clone project | git clone https://github.com/Ma77C0nd0n/my-resume.git |
 | open with TeXworks | open matt-condon_resume-may22.tex with newly installed TeXworks  |
 | run to generate pdf | click run with pdfLaTeX |
-
 
 ### References
 
